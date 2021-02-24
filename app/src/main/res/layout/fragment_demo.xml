@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bg_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tv_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:text="Câu điểm liệt"
+            android:textColor="#DFBF2A"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:padding="@dimen/_7sdp"
+            android:text="Trong các khái niệm dưới đây, “dải phân cách” được hiểu như thế nào là đúng?"
+            android:textColor="#123"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_question"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/a1"
+            android:visibility="gone"
+             />
+
+        <View
+            android:id="@+id/view_0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="#C6C5C5" />
+
+
+        <RadioGroup
+
+            android:id="@+id/radio_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@android:color/transparent"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:padding="@dimen/_7sdp"
+                android:text="Là bộ phận của đường "
+                android:textColor="#123"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <View
+                android:id="@+id/view_rb1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#C6C5C5" />
+
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:button="@android:color/transparent"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:padding="@dimen/_7sdp"
+                android:text="Là bộ phận của đường để phân tách phần đường xe chạy và
+hành lang an toàn giao thông."
+                android:textColor="#123"
+                android:textSize="@dimen/_12ssp" />
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#C6C5C5" />
+
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:button="@android:color/transparent"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:padding="@dimen/_7sdp"
+                android:text="Là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt
+hoặc để phân chia phần đường của xe cơ giới và xe thô sơ"
+                android:textColor="#123"
+                android:textSize="@dimen/_12ssp" />
+
+
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#C6C5C5" />
+
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:button="@android:color/transparent"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:padding="@dimen/_7sdp"
+                android:text="Là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt
+hoặc để phân chia phần đường của xe cơ giới và xe thô sơ"
+                android:textColor="#123"
+                android:textSize="@dimen/_12ssp" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:clickable="false"
+    app:cardCornerRadius="@dimen/_20sdp"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cst_button"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_figure"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:src="@drawable/a1" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="#123" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/tv_title_figure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Biển số 120 Hạn chế chiều dài ôtô, máy kéo kéo moóc hoặc sơ mi rơ moóc"
+                android:textColor="#123"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_content_figure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="báo đường cấm các loại xe (cơ giới và thô sơ) kéo theo moóc kể cả ôtô sơ-mi rơ-moóc và các loại xe được ưu tiên kéo moóc theo luật lệ nhà nước quy định, có độ dài toàn bộ kể cả xe, moóc và hàng lớn hơn trị số ghi trên biển đi qua"
+                android:textColor="#123"
+                android:textSize="@dimen/_11ssp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

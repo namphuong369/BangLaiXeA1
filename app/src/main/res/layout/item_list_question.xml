@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+    <TextView
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@drawable/dfault"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="01"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        android:id="@+id/item_list_question"
+        />
+</LinearLayout>

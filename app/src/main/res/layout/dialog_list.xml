@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:background="@drawable/cst_background"
+
+        >
+        <TextView
+            android:id="@+id/tv_name_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Văn hóa và đạo đức lái xe"
+            android:textAllCaps="true"
+            android:textColor="#123"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="#4caf50"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:padding="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_list"
+            tools:listitem="@layout/item_list_question"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="#4caf50"/>
+        <Button
+            android:id="@+id/bt_close_list"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="#ffffff"
+            android:text="Tiếp tục"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cst_bt_close"/>
+    </LinearLayout>
+</LinearLayout>

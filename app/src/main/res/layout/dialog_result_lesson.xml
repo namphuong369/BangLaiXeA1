@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+        <LinearLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cst_background"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tv_lesson_dialog_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ĐỀ 1"
+                android:textAllCaps="true"
+                android:textColor="#123"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_result_dialog_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="TRƯỢT"
+                android:textAllCaps="true"
+                android:textColor="#DD2424"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Kết quả: "
+                android:textColor="#123"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Số câu đúng:"
+                    android:textSize="@dimen/_13ssp"
+                    />
+                <TextView
+                    android:id="@+id/tv_correct_dialog_result"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="20"
+                    android:textSize="@dimen/_13ssp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Thời gian:"
+                    android:textSize="@dimen/_13ssp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_timer_dialog_result"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1 phút"
+                    android:textSize="@dimen/_13ssp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Số câu sai:"
+                    android:textSize="@dimen/_13ssp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_wrong_dialog_result"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="20"
+                    android:textSize="@dimen/_13ssp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Số câu liệt sai:"
+                    android:textSize="@dimen/_13ssp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_warning_dialog_result"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="@dimen/_13ssp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Số câu chưa trả lời:"
+                    android:textSize="@dimen/_13ssp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_null_dialog_result"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="@dimen/_13ssp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:animateLayoutChanges="true"
+                android:id="@+id/linear_list_dialog_result"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="Danh sách câu hỏi: "
+                    android:textColor="#123"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_dialog_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                 />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_seemore_dialog_result"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Xem thêm"
+                android:textSize="@dimen/_13ssp"
+                android:textAllCaps="false"
+                android:textColor="#33CFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cst_bt_see_more"/>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_ok_dialog_result"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="#4CAF50"
+                    android:text="Làm lại"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_13ssp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/bt_cancel_dialog_result"
+                    android:textColor="#ffffff"
+                    android:text="đề khác"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cst_bt_close"/>
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

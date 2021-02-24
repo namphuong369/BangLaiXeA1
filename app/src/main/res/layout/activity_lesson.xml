@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    >
+    <include
+        layout="@layout/toolbar_top"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_lesson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:listitem="@layout/item_lesson"
+        android:nestedScrollingEnabled="false"/>
+
+</LinearLayout>

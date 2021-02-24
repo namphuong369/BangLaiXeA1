@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BangLaiXeA1</string>
+    <string name="user_manual">Hướng dẫn sử dụng</string>
+    <string name="vote_app">Đánh giá ứng dụng</string>
+    <string name="feedback">Phản hồi ứng dụng</string>
+    <string name="share">Giới thiệu với bạn bè</string>
+    <string name="other_app">Ứng dụng khác</string>
+    <string name="Communicate">Communicate</string>
+    <string name="home">Trang chủ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app">Ôn thi BLX A1</string>
+    <string name="mail">offlineappreal@gmail.com</string>
+    //-------------------------------------
+    <string name="fun1">THI SÁT\nHẠCH</string>
+    <string name="fun2">HỌC LÝ\nTHUYẾT</string>
+    <string name="fun3">BIỂN BÁO\nĐƯỜNG BỘ</string>
+    <string name="fun4">TRA CỨU\nLUẬT</string>
+    <string name="fun5">MẸO THI\nKẾT QUẢ CAO</string>
+    <string name="fun6">CÁC CÂU\nSAI</string>
+    //---------------------------------------
+    <string name="a1">Chấp hành luật lệ giao thông là bảo vệ mình và mọi người</string>
+    <string name="a2">Hãy đội Mũ bảo hiểm - Đừng nguỵ biện</string>
+    <string name="a3">Hãy đội mũ bảo hiểm trước khi mọi chuyện trở nên quá muộn!</string>
+    <string name="a4">Giao thông an toàn - Bảo đảm tính mạng!</string>
+    <string name="a5">An toàn giao thông là hạnh phúc của mọi nhà!</string>
+    <string name="a6">Tuổi trẻ nói không với tai nạn giao thông</string>
+    <string name="a7">Nhân cách của bạn được thể hiện qua việc chấp hành luật giao thông</string>
+    <string name="a8">Nhanh 1 giây, chậm 1 đời</string>
+    <string name="a9">Luồn lách không có ích gì, phía trước vẫn tắc đường</string>
+    <string name="a10">Đèn đỏ qua rồi lại đến, sinh mạng không có lần hai</string>
+    <string name="a11">Hãy thể hiện mình là người có văn hóa khi tham gia giao thông</string>
+    <string name="a12">Chậm lại vài giây, hơn gây tai nạn</string>
+    <string name="a13">Nhường nhau không phải là hèn\nNhường nhau để khỏi lách, lèn, kẹt xe</string>
+    <string name="a14">Đừng dùng kèn hối thúc, hãy dùng để cảnh báo!</string>
+    <string name="a15">Muốn nhanh thì phải từ từ</string>
+    <string name="a16">Người "còi" văn minh bóp còi thiếu văn hoá !</string>
+    <string name="a17">Có văn hóa giao thông là sống vì cộng đồng</string>
+    <string name="a18">Thay đổi văn hóa giao thông - bắt đầu từ chính bạn</string>
+    <string name="a19">Hãy kể cho tôi cách bạn tham gia giao thông, tôi sẽ nói cho bạn biết bạn là người thế nào</string>
+    <string name="a20">Lái xe thể hiện bản chất con người!</string>
+    //------------------------------------------
+    <string name="note1">1. Những câu hỏi về "khái niệm" hoặc "hiểu như thế nào là đúng" thì có các từ trong ngược kéo "..." ở đề bài thì để ý những từ sau:\n+ Vạch – Phố – Dải – Phần: Chọn đáp án (1).\n+ Làn – Tiên – Giới: Chọn đáp án (2).\n+ Khái niệm “đường bộ”, “văn hóa giao thông”: Chọn đáp án (1) + (2).\n+ Khái niệm “Người điều khiển giao thông”: Chọn đáp án (2) + (3).\n\n2. Những câu luôn nằm trong ĐÁP ÁN ĐÚNG:\n+ Bị nghiêm cấm.\n+ Không được……. (không được phép, không được quay đầu).+ + UBND cấp tỉnh.\n + Cơ quan, tổ chức, cá nhân.\n\n3. Câu hỏi về NỒNG ĐỘ CÒN:\nNhững câu hỏi về NỒNG ĐỘ CỒN, mà đề bài nhắc đến:+\n+ Mô tô: thì chọn đáp án (1).\n+ Ô tô: thì chọn đáp án (2).\n\n4. Câu hỏi về HÀNH VI:\nNhững câu hỏi về HÀNH VI mà:\n+ Có 2 đáp án: Chọn cả (1) và (2).+\n+ Có 4 đáp án: Đọc hiểu.\n\n5. Câu hỏi về HIỆU LỆNH CSGT:\nKhi câu hỏi có nhắc đến HIỆU LỆNH của người điều khiển giao thông:+\n+ Giơ: chọn đáp án (2).\n+ Giang: chọn đáp án (1).\n\n6. Câu hỏi về VÒNG XUYẾN\n+ Có báo hiệu đi theo vòng xuyến - nhường bên tay TRÁI\n+ Không có báo hiệu đi theo vòng xuyến - nhường bên tay PHẢI\n\n7.Câu hỏi liên quan đến LÀN ĐƯỜNG\nNhững câu hỏi liên quan đến LÀN ĐƯỜNG, ta sẽ dựa vào độ dài đáp án:\n+ 3 đáp án có độ dài ngang nhau: chọn đáp án (2).\n+ 2 đáp án dài, 1 đáp án ngắn: chọn 2 đáp án dài.</string>
+    <string name="note2">1. Học kỹ các biển báo:\n+ Cấm mô tô, cấm xe gắn máy, cấm rẽ trái, cấm quay đầu, giao nhau cùng cấp, giao nhau với đường không ưu tiên, giao nhau với đường không ưu tiên, giao nhau tín hiệu đèn, đường 2 chiều, giao nhau với đường 2 chiều, biển chỉ dẫn và biển hiệu lệnh\n+ Biển cấm rẽ trái: Cấm cả quay đầu.\n+ Biển cấm quay đầu: Được rẽ trái.\n\n 2.Nhìn thấy biển đúng là khoanh luôn</string>
+    <string name="note3">1. Thứ tự đi phần sa hình:\nThứ 1: Xe nào vào nơi giao nhau đi trước.\nThứ 2: Xe ưu tiên đi trước: Quân sự, công an, cứu thương...\nThứ 3: Xe nào đi trên đường ưu tiên thì được đi trước.\nThứ 4: Xe bên phải không vướng đi trước.\nThứ 5: Rẽ phải – Đi thẳng – Rẽ trái.\n\n2. XE CON LUÔN ĐÚNG: tức là xe con là từ khóa, xe con luôn chấp hành đúng quy tắc giao thông.\n+ Khi đề bài hỏi xe nào được quyền đi trước, xe nào chấp hành đúng luật giao thông - Chọn đáp án có xe con.\n+ Khi đề bài hỏi xe nào vi phạm quy tắc giao thông =>> Chọn đáp án không có xe con (Vì xe con luôn đúng).\n\n3. Có hình CSGT hoặc VÒNG TRÒN hoặc VÒNG XUYẾN: Chọn đáp án số 3\n\n4. ĐẾM SỐ XE: Trong phần sa hình , trong hình chỉ có mỗi xe không, không có biển , không có đèn gì cả, thì ĐẾM SỐ XE CHỌN ĐÁP ÁN: Có 3 xe chọn đáp án 3, 4 xe chọn đáp án 4.\n\n5. Có mũi tên màu đỏ: đếm ngã – 1 =>> ra đáp án\nCó 3 ngã thì đáp án 2, có 4 ngã thì đáp án 3.\n\n6. Có chữ Xe con (E) và “Xe xích lô”: chọn đáp án đúng luôn.</string>
+
+    <string name="note9">Đầu tiên bạn dừng xe trước vạch xuất phát và chờ hiệu lệnh báo ” xe số xxx ( xxx là mã số của xe của bạn ) bắt đầu thi “.\n\nKhi có hiệu lệnh xuất phát bạn cho xe tiến dần vào cửa vòng số 8, ở giai đoạn này bạn nên đi ở số 2 hoặc số 3 và ở 2 số này máy sẽ đầm và tốc độ ổn định. Theo mình nên giữ số 2 cho bước này, nếu bạn nào không quen trả số thì nên giữ luôn số 3 mà đi để tránh trường hợp bạn vào ga hơi mạnh không kiểm soát được xe sẽ cán vạch.\n\nKhi đã cho xe tiến đến cửa vòng số 8 bạn rẽ phải tiếp tục cho xe chạy theo theo chiều mũi tên vẽ trên sa hình, ở bước này khi xe đã vào hình vòng số 8 và tiếp tục chạy vào sa hình thì nên dùng số 3 là tốt nhất. Nếu bạn nào khi tiến đến cửa vòng số 8 mà đang dùng số 2 thì ta lập tức lên ngay số 3 để chạy cho đầm máy không bị lố ga lao ra khỏi vòng. Nên giữ số 3 để đi hết hành trình.</string>
+    <string name="note4">Vòng số 8 để kiểm tra cách rẽ của thí sinh, khi lưu thông không phải lúc nào cũng đi theo một đường thẳng. Qua nhiều khúc cua, hẻm cần đi thì bắt buộc người lưu thông phải rẽ qua. Vì vậy, hoạt động điều khiển tay lái để rẽ theo ý muốn cần được kiểm tra qua cách chạy vòng số 8.\nSau khi chạy vòng số 8, thí sinh sẽ tiếp tục chạy theo các làn đường thẳng, đường gặp chướng vạch cản và đường gồ ghề. Khi lưu thông trên đường, các hình thức đường này sẽ gặp thường xuyên và đòi hỏi thí sinh phải vượt qua mới đảm bảo an toàn khi lưu thông.</string>
+    <string name="note5">Khi chạy vòng, thí sinh tốt nhất nên chạy số 3 để không bị giật, tốc độ không quá nhanh hay quá chậm giúp thí sinh có thể điều chỉnh tay lái dễ dàng.\n\nHướng đi từ mép bên trái, bánh xe sau sẽ tránh được tình trạng đè lên vạch.\nHướng đi từ mép bên phải, bánh trước sẽ điều chỉnh được nhưng bánh sau sẽ bị đè lên vạch.\n\nKhi ra khỏi vòng số 8, thí sinh nên cho ra từ mép ngoài bên trái nếu không bánh sau cũng dễ đè lên vạch.</string>
+    <string name="note6">Sau khi chạy xong vòng số 8, thí sinh tiếp tục ra chạy theo các vạch đường, đầu tiên là vạch đường thẳng. Nhớ giữ đều ga ở số 3, vận tốc không được vượt quá 30 km/h.\nVạch đường này được xem là đơn giản nhất trong các vạch còn lại, nên các thí sinh thường không bị mắc lỗi.</string>
+    <string name="note7">Vạch đường có vật cản là làn đường tiếp theo mà thí sinh cần phải vượt qua.Bạn chỉ cần điều khiển tay lái tránh các thanh cản trên đường.\nLưu ý: Phần đường này mọi người cũng nên chạy cẩn thận một chút, chỉ cần chếch tay một chút thôi cũng dễ dẫn đến nghiêng, đổ xe.</string>
+    <string name="note8">Đường gồ ghề là vạch còn lại thí sinh cần phải vượt qua, bạn cũng giữ tốc độ ổn định mức không quá 20 km/h nhé! Vì phải đi trên đường mấp mô nên cần phải giữ vững tay lái một chút, nhờ vậy thí sinh sẽ cảm thấy chắc chắn hơn khi phải chạy xe trên đoạn đường này.</string>
+    <string name="note10">Nhiều trường hợp vì quá run nên chạy được nữa vòng đầu rồi sau đó chạy nhầm hướng và bị loại.\nNhiều trường hợp chạy chưa đủ vòng mà đã vào lối ra cho bài thi số 2 rồi.\nBạn nên chú ý chạy đủ vòng mới được ra khỏi vòng số 8 nhé.\nSau khi hoàn thành xong bài thi sa hình vòng số 8, bạn sẽ đến với 3 bài thi còn lại rất đơn giản trên sa hình số 3 gồm : bài thi chạy xe trên đường thẳng nhỏ hẹp – chạy xe trên đường quanh co – chạy xe trên đường gồ ghề . Đa số 100% thí sinh đều hoàn thành tốt ở 3 bài thi nhỏ này.</string>
+    <string name="cre_lesson">TẠO ĐỀ</string>
+    <string name="cre_lesson_note">Lấy ngẫu nhiên 25 câu hỏi trong bộ đề 200 câu để làm như đề thi thật. Bạn có muốn tạo đề không?</string>
+    <string name="pre_start_lesson">Gồm 25 câu hỏi, thời gian hoàn thành bài thi là 19 phút. Các câu không có đáp án trả lời được tính là đáp án SAI. Đọc kỹ câu hỏi rồi trả lời để tránh bị nhầm lẫn</string>
+    <string name="exit_app">Thoát</string>
+    <string name="exit_note">Nếu bạn hài lòng hãy đánh giá 5 sao cho ứng dụng. Đó là động lực để chúng tôi thiết kế những sản phẩm tiếp theo hữu ích, thú vị hơn.</string>
+    <string name="user_manual_note1">Đây là ứng dụng giúp bạn học lý thuyết để chuẩn bị cho kỳ thi giấy phép lái xe A1 chỉ trong 1 ngày. Hãy làm theo các bước dưới để đạt được kết quả thi tốt nhất nhé!</string>
+    <string name="user_manual_note2">1. Đọc kỹ phần \"BIỂN BÁO ĐƯỜNG BỘ\". Chú ý các biển báo cấm, biển báo nguy hiểm, biển báo chỉ dẫn, biển báo hiệu lệnh, ... </string>
+    <string name="user_manual_note3">2. Học kỹ các câu lý thuyết trong phần \"HỌC LÝ THUYẾT\", chú ý ôn tập thật kỹ các câu điểm liệt. Sau khi làm lần 1 hãy xem sang phần \"MẸO THI KẾT QUẢ CAO\" để làm lại lượt nữa các câu hỏi lý thuyết.</string>
+    <string name="user_manual_note4">3. Sau khi ôn xong lý thuyết, vào làm thử 6 đề thi có sẵn trong phần \"THI SÁT HẠCH\". Hãy làm tốt những đề có sẵn rồi tạo các đề ngẫu nhiên mới. Làm thật tốt để đảm bảo được tinh thần tâm lý trước khi thi được thoải mái.</string>
+</resources>

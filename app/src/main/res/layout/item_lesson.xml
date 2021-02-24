@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/view_color"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tv_number_lesson"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/cicrle"
+                android:backgroundTint="#112233"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="#123"
+                android:textSize="@dimen/_18ssp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_lesson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đề số 1"
+                        android:textColor="#123"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/tv_warning_lesson"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="(Sai câu liệt)"
+                        android:textColor="#DFBF2A"
+                        android:gravity="center"
+                        android:textSize="@dimen/_12ssp"
+                        />
+                </LinearLayout>
+
+                    <TextView
+
+                        android:id="@+id/tv_content_lesson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Đúng 25 câu / 19 phút"
+                        android:textColor="#919498"
+                        android:gravity="center"
+                        android:textSize="@dimen/_12ssp"
+                        />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_result_lesson"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Làm"
+                    android:textAllCaps="true"
+                    android:textColor="#123"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/iv_start_lesson"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:src="@drawable/next"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

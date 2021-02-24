@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:background="#AEEF9C"
+    android:gravity="bottom">
+    <ImageView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:src="@drawable/scooter"/>
+    <TextView
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app"
+        android:textColor="#123"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="serif"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:textColor="#123"
+        android:textSize="@dimen/_13ssp"
+
+        android:gravity="center"
+        android:fontFamily="serif"/>
+</LinearLayout>
